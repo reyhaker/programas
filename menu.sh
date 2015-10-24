@@ -280,7 +280,7 @@ echo 		"Memoria Liberada"
 		cd programas
 echo		"Reiniciar el programa para comprobar la versión"
 		_menusis
-
+;;
 	43)
 		sudo reboot
 ;;
