@@ -89,7 +89,7 @@ _menusis()
 
     echo "41) Liberar Memoria Ram"
 
-    echo "42) "
+    echo "42) Actualizar Menu.sh"
 
     echo "43) Reiniciar Equipo"
 
@@ -273,6 +273,12 @@ _menu
 echo 		"Memoria Liberada"
 		_menusis
 ;;
+	42)
+		cd ..
+		rm -R programas
+		git clone https://github.com/reyhaker/programas.git
+		cd programas
+		_menusis
 
 	43)
 		sudo reboot
