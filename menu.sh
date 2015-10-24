@@ -14,7 +14,7 @@ _menu()
 
 {
 
-    echo "Menu sh vers. 1.0.1.8"
+    echo "Menu sh vers. 1.0.1.9"
 
     echo "Selecciona una opción:"
 
@@ -277,10 +277,10 @@ echo 		"Memoria Liberada"
 		cd ..
 		sudo rm -R programas
 		git clone https://github.com/reyhaker/programas.git
-		cd programas
 		clear
 echo		"Reiniciar el programa para comprobar la versión"
 		exit
+		cd programas
 		sh menu.sh
 ;;
 	43)
