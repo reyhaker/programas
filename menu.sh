@@ -14,7 +14,7 @@ _menu()
 
 {
 
-    echo "Menu sh vers. 1.0.1.6"
+    echo "Menu sh vers. 1.0.1.7"
 
     echo "Selecciona una opción:"
 
