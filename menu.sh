@@ -14,7 +14,7 @@ _menu()
 
 {
 
-    echo "Menu sh vers. 1.0.1.7"
+    echo "Menu sh vers. 1.0.1.8"
 
     echo "Selecciona una opción:"
 
@@ -280,7 +280,8 @@ echo 		"Memoria Liberada"
 		cd programas
 		clear
 echo		"Reiniciar el programa para comprobar la versión"
-		exit & sh menu.sh
+		exit
+		sh menu.sh
 ;;
 	43)
 		sudo reboot
