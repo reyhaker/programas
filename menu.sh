@@ -279,7 +279,8 @@ echo 		"Memoria Liberada"
 		git clone https://github.com/reyhaker/programas.git
 		clear
 echo		"Reiniciar el programa para comprobar la versión"
-		exit & cd ..
+		cd ..
+		exit
 ;;
 	43)
 		sudo reboot
