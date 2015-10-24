@@ -14,9 +14,9 @@ _menu()
 
 {
 
-    echo "Selecciona una opcion:"
+    echo Menu sh vers. 1.0.1
 
-    echo
+    echo "Selecciona una opcion:"
 
     echo "1) Herramientas red"
 
@@ -278,6 +278,7 @@ echo 		"Memoria Liberada"
 		rm -R programas
 		git clone https://github.com/reyhaker/programas.git
 		cd programas
+echo		"Reiniciar el programa para comprobar la versión"
 		_menusis
 
 	43)
