@@ -138,7 +138,7 @@ do
 		clear
 
 echo "...........|***********************||_"
-echo ".....Creado por Reynaldo Alarcon......"
+echo ".....Creado..por..Reynaldo.Alarcon......"
 echo "......................................"
 _menu
 ;;
